@@ -1,0 +1,29 @@
+# Telegram Bot Requirements Template
+# Copy this file to your bot project and modify as needed
+
+# Telegram Bot API
+python-telegram-bot>=20.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# HTTP requests (optional)
+requests>=2.31.0
+
+# Async HTTP client (optional)
+aiohttp>=3.9.0
+
+# Database (choose one if needed)
+# PostgreSQL
+# psycopg2-binary>=2.9.0
+# SQLAlchemy>=2.0.0
+
+# MongoDB
+# pymongo>=4.0.0
+
+# Redis (for caching/rate limiting)
+# redis>=5.0.0
+
+# Utilities
+# pytz>=2023.3  # Timezone support
+# python-dateutil>=2.8.2  # Date utilities
