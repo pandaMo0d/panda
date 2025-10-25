@@ -1,0 +1,53 @@
+# Django Project Requirements Template
+# Copy this file to your Django project and modify as needed
+
+# Django
+Django>=4.2,<5.0
+
+# Database drivers
+# PostgreSQL (recommended)
+psycopg2-binary>=2.9.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Web server
+gunicorn>=21.2.0
+
+# Static files (production)
+whitenoise>=6.6.0
+
+# Images
+Pillow>=10.0.0
+
+# API (if building REST APIs)
+djangorestframework>=3.14.0
+django-cors-headers>=4.3.0
+
+# Authentication (if needed)
+# djangorestframework-simplejwt>=5.3.0
+# django-allauth>=0.57.0
+
+# Celery (for background tasks)
+# celery>=5.3.0
+# redis>=5.0.0
+
+# Caching
+# django-redis>=5.4.0
+
+# Admin improvements (optional)
+# django-admin-interface>=0.26.0
+
+# Forms (optional)
+# django-crispy-forms>=2.1
+# crispy-bootstrap5>=2.0.0
+
+# Testing
+# pytest>=7.4.0
+# pytest-django>=4.7.0
+# coverage>=7.3.0
+
+# Code quality (development)
+# black>=23.12.0
+# flake8>=7.0.0
+# isort>=5.13.0
